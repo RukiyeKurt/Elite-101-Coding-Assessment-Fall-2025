@@ -1,17 +1,22 @@
-# Elite-101-Coding-Assessment-Fall-2025
-Fall 2025 E101 coding assessment
+# Library Book Checkout System
 
-# Library Inventory and Checkout Manager
+This project is for the "Code2College Elite 101 Fall 2025 assessment".
+It is a simple Python program that lets users check out and return library books.
 
-This is the starter repo for the Elite 101 internship coding assessment. You will complete the functions in `main.py` using the book data in `library_books.py`.
+## Features
 
-## How to Use
+* View book list
+* Check out a book (with a 2-week due date)
+* Return a book
+* Tracks how many times each book was checked out
 
-- Work inside `main.py` to write your functions
-- Test your code by running `main.py` locally or in Replit
-- Do not change the structure of `library_books.py`
-- Submit this repository and your video explanation to Canvas by the deadline
+## Files
 
-## Challenge Overview
+* **main.py** – main program
+* **library_books.py** – Book class and functions
 
-See the full challenge PDF for detailed instructions and requirements.
+## How to Run
+
+```
+python main.py
+```
